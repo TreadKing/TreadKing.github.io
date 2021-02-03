@@ -1,0 +1,86 @@
+body {
+    margin: 5% auto;
+    padding: 1%;
+    max-width: 1000px;
+    font: 2em sans-serif;
+    color: white;
+
+    background: url(white-wall-lamp.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*{
+    color: white;
+}
+
+.header_div{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+table {
+    margin: auto auto;
+    width: 100%;
+    max-width: 800px;
+    font-size: .75em;
+}
+
+th, td{
+    text-align: center;
+    padding: 5px;
+    display: table-cell;
+    
+}
+
+tr:nth-child(odd){
+    background-color: rgba(242, 242, 242, .25);
+}
+
+tr:nth-child(even){
+    background-color: rgba(169, 169, 169, 0.5);
+}
+
+img{
+    display: block;
+    width: 20%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul, ol{
+    font-size: .7em;
+}
+
+li {
+    margin-left: 10%;
+}
+
+
+a {
+
+    color: #8000FF;
+}
+
+a:hover {
+    color: #0000ff;
+}
+
+.cs_dep{
+    
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+    color: red;
+}
+
+span{
+    color: red;
+    font-weight: bold;
+}
+
