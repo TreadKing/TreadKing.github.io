@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> University of Gerorgia State Example on embedded styple sheets </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <style>
+        body{
+            font-family: "times new roman";
+            margin-left: 20%;
+            margin-right: 20%;
+            text-align: justify;
+            background: ivory;
+            color: red;
+        }
+
+        p{
+            text-indent: 2cm;
+        }
+
+        h1,h2,h3{
+            color: red;
+            margin-left: 2cm;
+        }
+        .ex2{
+            background: black;
+        }
+
+        /* Internal css for exercise 4 */
+        h1 {
+            color: red;
+            margin-left: 2cm;
+        }
+
+        h2 {
+            color: red;
+            margin-left: 4cm;
+        }
+
+        p {
+            text-indent: 2cm;
+            color: darkred;
+            margin-left: 6cm;
+        }
+
+        .ex6 {
+            background: #121212;
+            margin-left: 10%;
+            margin-right: 10%;
+            text-align: justified;
+            color: white
+        }
+
+        .ec6 .h1, .h2, .h3{
+            margin-left: 2.5cm;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .ec6 .instructor {
+            font-size: 14pt;
+            margin-right: 1cm;
+}
+    </style>
+</head>
+
+<body>
+<h1> Exercise 1 </h1>
+<p style="text-indent: 2cm; color:darkred;"> 
+    This paragraph has been formatted using the in-line style command. 
+</p>
+
+<p>
+    This paragraph has not been formatted using the in-line styple command.
+</p>
+
+<h2> Exercise 2 </h2>
+<div class="ex2">
+    <p>
+        The error is that "marginleft" should he "margin-left" to correctly set the margin.
+    </p>
+</div>
+
+<h3> Exercise 3 </h3>
+<h1 style="color: red; margin-left: 2cm;"> h1 heading </h1>
+<h2 style="color: red; margin-left: 4cm;"> h2 heading </h2>
+<p style="text-indent: 2cm; color: darkred; margin-left: 6cm;"> Paragraph 1 </p>
+<p style="text-indent: 2cm; color: darkred; margin-left: 6cm;"> Paragraph 2 </p>
+<h2 style="color: red; margin-left: 4cm;"> h2 subheading </h2>
+<p style="text-indent: 2cm; color: darkred; margin-left: 6cm;"> Paragraph 1 </p>
+
+<h4><a href="exercise4.html"> Exercise 4 </a></h4>
+
+
+<div class="ex6">
+    <h1> GSU School of Arts and Science website design </h1>
+    
+    <ul>
+        <lh> HTML tags to be used for this website </lh>
+        <li> have all of the css that is university specific in an external css file while having each department use embeded css so that they can have control over their specific pages that need non-defualt css.</li>
+        <li> h1 tag for use of displaying the name of the school </li>
+        <li> h2 tag to denote the department name you are loking at. </li>
+        <li> h3 tag to list the class you are looking at </li>
+        <li> p tag with the class 'instructor' to denote what instructor's class you are lookingat </li>
+        <li> tables with the class 'time_table' to stle the tables </li>
+        <li> tables with the class 'exam_schedule' for teacher exam schedules </li>
+        <li> tables with the class 'curriculum' for a courses curriculum information </li>
+        <li> p tag with the class 'syllabus' for displaying a download link for a courses syllabus </li>
+        <li> ul and li for a list of subjects taught </li>
+        <li> tables with the class 'due_dates' for a table of due dates for a class </li>
+        <li> background color is denoted in the body tag of the css and can be overwritten in the embedded css </li>
+    </ul>
+
+    <h1> GSU School of Art and Science </h1>
+    <h2> Insert Department name </h2>
+    <h3> Insert name of the class here </h3>
+    <p class="instuctor"> Insert name of the instructor </p>
+
+</div>
+</body>
+
+</html>

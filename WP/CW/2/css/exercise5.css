@@ -1,0 +1,42 @@
+body {
+    background: chocolate;
+}
+
+.alt_h1 {
+    font-size: 14pt;
+    font-family: Arial;
+    font-style: bold;
+    color: moccasin;
+}
+
+.alt_h2 {
+    font-size: 14pt;
+    font-family: Arial;
+    font-style: normal;
+    color: khaki;
+}
+
+.p1 {
+    font-size: 12pt;
+    font-family: Arial;
+    font-size: bold;
+    color: ivory;
+}
+
+.p2 {
+    font-size: 14pt;
+    font-family: Trebuchet MS;
+    font-style: bold;
+    color: gold;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+
+.p3 {
+    font-size: 14pt;
+    font-family: Trebuchet MS;
+    font-size: bold, italic;
+    color: gold;
+    margin-left: 4cm;
+    margin-right: 4cm;
+}
