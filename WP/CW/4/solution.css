@@ -1,0 +1,42 @@
+.header {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-basis: 67%;
+}
+
+.right_col {
+    flex-direction: column;
+}
+
+.col_conf {
+    padding: 2em;
+    margin: 4em;
+    border-style: dashed;
+    border-color: red;
+}
+
+aside {
+    display: flex;
+    flex-basis: 67%;
+    flex-direction: column;
+    padding: 2em;
+    margin: 4em;
+    border-style: dashed;
+    border-color: red;
+}
+
+.puppy {
+    float: right;
+    width: 200px;
+}
+
+.p_last {
+    clear: both;
+}
+
+.bot_page {
+    position: fixed;
+}
