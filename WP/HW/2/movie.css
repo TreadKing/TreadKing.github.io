@@ -1,0 +1,182 @@
+body {
+    background-image: url("assignment_2_resource/background.png");
+}
+
+#banner {
+    width: 100%;
+    position: absolute;
+    height: 50px;
+    top: 0;
+    z-index: 1;
+    
+}
+
+#banner_background {
+    display: block;
+    background-image: url("assignment_2_resource/bannerbackground.png");
+    height: 50px;
+    background-repeat: repeat-x;
+    top: 0;
+    left: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	max-width: 100vw;
+	position: absolute;
+	right: 50%;
+	width: 100vw;
+}
+
+#title {
+    font-family: 'Verdana bold', 'bold';
+    font-size: 24pt;
+    text-align: center;
+    padding: 30px;
+
+}
+
+#main {
+    border-style: solid;
+    border-color: grey;
+    border-width: 4px;
+    width: 800px;
+    margin: auto;
+    height: 818px;
+
+}
+
+#rottenbig {
+    position: relative;
+    top: 0;
+    right: 0;
+    height: 83px;
+}
+
+#rotten_background {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-image: url("assignment_2_resource/rottenbackground.png");
+    background-repeat: repeat-x;
+    height: 83px;
+    width: 550px;
+    top: -500;
+    margin: 0px;
+    padding: 0px;
+}
+
+#poster {
+    position: relative;
+    top: -83px;
+    left: 550px;
+    z-index: 2;
+}
+
+#rating {
+    position: relative;
+    align-self: baseline;
+    width: 170px;
+    font-size: 48pt;
+    color: red;
+    margin: 0px;
+    font-family: Verdana bold, Tahoma, sans-serif;  
+}
+
+#num_reviews {
+    position: relative;
+    font-family: Verdana , Tahoma, sans-serif;
+    font-size: 8pt;
+    align-self: baseline;
+    color: white;
+    margin: 0px;
+}
+
+#reviews {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 830px;
+    position: relative;
+    top: -810px;
+    left: 0px;
+    width: 550px;
+    margin-top: 2%;
+}
+
+#overview { 
+    background-color: #A2B964;
+    position: relative;
+    top: -87px;
+    left: 550px;
+    width: 230px;
+    padding: 10px;
+    font-family: Verdana, Tahoma, sans-serif; 
+    font-size: 8pt;
+}
+
+#overview dt{
+    font-family: Verdana bold, Tahoma, sans-serif;
+}
+
+
+
+.review_main {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3em;
+    margin-left: 2%;
+    flex-wrap: wrap;
+    width: 47%;
+}
+
+/* .review_main {
+    width: 47%;
+    margin: 2%;
+} */
+
+.review_body {
+    padding: 5px;
+    font-size: 8px;
+    font-family: Verdana bold, Tahoma, sans-serif;
+    background-color: #E1D697;
+    border-style: solid;
+    border-color: grey;
+    border-width: 2px;
+}
+
+.review_img, .critic {
+    float: left;
+    padding: 1px;
+}
+
+.review_author {
+    font-family: Verdana italic, Tahoma, sans-serif;
+    font-size: 8pt;
+}
+
+#bottom_bar {
+    background-color: #A2B964;
+    width: 800px;
+    position: relative;
+    top: -945px;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 8pt;
+    vertical-align: center;
+    margin: 0;
+    height: 15px;
+}
+
+#valid{
+    position: relative;
+    float: right;
+    margin-top: 0%;
+    top: -70px;
+    margin: 0px;
+}
+
+#valid p {
+    margin: 0px;
+}
+
+
+
