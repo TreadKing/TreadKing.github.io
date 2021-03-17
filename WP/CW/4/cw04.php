@@ -74,8 +74,50 @@ for ($i = 0; $i <= 5; $i++) {
 <?php
 
     function countWords($str) {
+        $string = explode(" ",$str);
+        $count = array();
+	    foreach($string as $word => $words){
+            if (array_key_exists( $words , $count)){
+                $count[$words] = $count[$words]+1;
+            }
 
+            else{
+                $count[$words]=1;
+            }
+		}
+		print_r($count);
+		}
+        $str =strtolower("According to all known laws
+        of aviation,
+        
+          
+        there is no way a bee
+        should be able to fly.");
+        countWords($str);
+
+?>
+
+<h2> Exercise 6 </h2>
+<?php
+
+function remove_all($str, $char){
+    $len = strlen($str);
+    $str2 = "";
+    for ($i = 0; $i < $len; $i++) {
+        if ($str[$i] !== $char) {
+            $str2 = $str2.$str[$i];
+        }
     }
+
+    return $str2;
+}
+echo remove_all("according to all known laws
+of aviation,
+
+  
+there is no way a bee
+should be able to fly.", "a");
+
 ?>
 
 </body>
